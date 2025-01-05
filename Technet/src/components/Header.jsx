@@ -12,7 +12,7 @@ const Header = () => {
             className="h-10 w-10 rounded-full border-2 border-gray-"
           />
         </div>
-        <nav className="flex space-x-6">
+        <nav className="flex justify-center space-x-10">
           <Link to="/" className="hover:text-blue-400">
             Home
           </Link>
