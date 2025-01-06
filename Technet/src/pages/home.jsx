@@ -116,6 +116,136 @@ const Home = () => {
           </div>
         </div>
       </section>
+      <section className="bg-gray-900 text-white py-16">
+        <div className="container mx-auto px-6 lg:px-20 flex flex-col lg:flex-row items-center">
+          {/* Left Side Content */}
+          <div className="lg:w-1/2 mb-8 lg:mb-0">
+            <h2 className="text-4xl font-bold mb-4">
+              We craft SaaS, Business Sites & more.
+            </h2>
+            <p className="text-gray-400 mb-6">
+              We specialize in crafting SaaS platforms, business websites, and
+              more to fit your unique needs. Our solutions are designed to drive
+              growth, enhance functionality, and elevate your digital presence.
+            </p>
+            <ul className="grid grid-cols-2 gap-4 text-sm">
+              <li className="flex items-center">
+                <svg
+                  className="w-5 h-5 text-blue-500 mr-2"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M5 13l4 4L19 7"
+                  />
+                </svg>
+                Premium quality
+              </li>
+              <li className="flex items-center">
+                <svg
+                  className="w-5 h-5 text-blue-500 mr-2"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M5 13l4 4L19 7"
+                  />
+                </svg>
+                Rich documentation
+              </li>
+              <li className="flex items-center">
+                <svg
+                  className="w-5 h-5 text-blue-500 mr-2"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M5 13l4 4L19 7"
+                  />
+                </svg>
+                Use for lifetime
+              </li>
+              <li className="flex items-center">
+                <svg
+                  className="w-5 h-5 text-blue-500 mr-2"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M5 13l4 4L19 7"
+                  />
+                </svg>
+                Developer friendly
+              </li>
+              <li className="flex items-center">
+                <svg
+                  className="w-5 h-5 text-blue-500 mr-2"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M5 13l4 4L19 7"
+                  />
+                </svg>
+                Full control
+              </li>
+              <li className="flex items-center">
+                <svg
+                  className="w-5 h-5 text-blue-500 mr-2"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M5 13l4 4L19 7"
+                  />
+                </svg>
+                In your budget
+              </li>
+            </ul>
+          </div>
+
+          {/* Right Side Content */}
+          <div className="lg:w-1/2 flex justify-center">
+            <div className="bg-gray-800 rounded-lg shadow-lg p-6">
+              <div className="grid grid-rows-3 gap-4">
+                <div className="w-40 h-28 bg-gray-700 rounded"></div>
+                <div className="w-40 h-28 bg-gray-700 rounded"></div>
+                <div className="w-40 h-28 bg-gray-700 rounded"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </section>
   );
 };
