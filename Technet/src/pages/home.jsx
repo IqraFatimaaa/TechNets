@@ -29,8 +29,8 @@ const Home = () => {
           seamless integration, unmatched performance, and future-ready
           innovation.
         </p>
-        <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
-          <div className="bg-gray-800 p-6 rounded-md">
+        <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-10 ml-5">
+          <div className="bg-gray-800 p-6 rounded-md transition-transform transform hover:scale-105 hover:shadow-[0_0_20px_#00FFFF] shadow-lg duration-300">
             <h3 className="text-xl font-bold mb-4 text-white">
               Crafted For Startups
             </h3>
@@ -40,7 +40,7 @@ const Home = () => {
               your business to thrive.
             </p>
           </div>
-          <div className="bg-gray-800 p-6 rounded-md">
+          <div className="bg-gray-800 p-6 rounded-md transition-transform transform hover:scale-105 hover:shadow-[0_0_20px_#00FFFF] shadow-lg duration-300">
             <h3 className="text-xl font-bold mb-4 text-white">
               High-quality Design
             </h3>
@@ -50,7 +50,7 @@ const Home = () => {
               impression.
             </p>
           </div>
-          <div className="bg-gray-800 p-6 rounded-md">
+          <div className="bg-gray-800 p-6 rounded-md transition-transform transform hover:scale-105 hover:shadow-[0_0_20px_#00FFFF] shadow-lg duration-300">
             <h3 className="text-xl font-bold mb-4 text-white">
               Latest Technologies
             </h3>
@@ -63,8 +63,8 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
-        <div className="bg-gray-800 p-6 rounded-md">
+      <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-10 ml-5">
+        <div className="bg-gray-800 p-6 rounded-md transition-transform transform hover:scale-105 hover:shadow-[0_0_20px_#00FFFF] shadow-lg duration-300">
           <h3 className="text-xl font-bold mb-4 text-white">
             Reasonable Pricing
           </h3>
@@ -74,7 +74,7 @@ const Home = () => {
             needs.
           </p>
         </div>
-        <div className="bg-gray-800 p-6 rounded-md">
+        <div className="bg-gray-800 p-6 rounded-md transition-transform transform hover:scale-105 hover:shadow-[0_0_20px_#00FFFF] shadow-lg duration-300">
           <h3 className="text-xl font-bold mb-4 text-white">SEO Friendly</h3>
           <p className="text-gray-400">
             SEO-friendly products designed to boost your online visibility. We
@@ -82,7 +82,7 @@ const Home = () => {
             traffic and enhance engagement.
           </p>
         </div>
-        <div className="bg-gray-800 p-6 rounded-md">
+        <div className="bg-gray-800 p-6 rounded-md transition-transform transform hover:scale-105 hover:shadow-[0_0_20px_#00FFFF] shadow-lg duration-300">
           <h3 className="text-xl font-bold mb-4 text-white">Fully Control</h3>
           <p className="text-gray-400">
             Full control over your product, giving you complete oversight and
