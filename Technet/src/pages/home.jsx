@@ -292,6 +292,110 @@ const Home = () => {
           </div>
         </div>
       </section>
+      <section id="contact" className="p-10">
+        <div className="container mx-auto max-w-4xl text-center">
+          <h2 className="text-3xl font-bold mb-4">Contact Us</h2>
+          <p className="mb-6 text-gray-400">We’d love to hear from you!</p>
+          <form className="space-y-4">
+            <input
+              type="text"
+              placeholder="Your Name"
+              className="w-full p-3 bg-gray-800 border border-gray-700 rounded-md focus:outline-none focus:ring focus:ring-blue-500"
+            />
+            <input
+              type="email"
+              placeholder="Your Email"
+              className="w-full p-3 bg-gray-800 border border-gray-700 rounded-md focus:outline-none focus:ring focus:ring-blue-500"
+            />
+            <textarea
+              placeholder="Your Message"
+              className="w-full p-3 bg-gray-800 border border-gray-700 rounded-md focus:outline-none focus:ring focus:ring-blue-500"
+              rows="5"
+            ></textarea>
+            <button
+              type="submit"
+              className="w-full bg-blue-500 text-white py-3 rounded-md hover:bg-blue-600 transition duration-200"
+            >
+              Send Message
+            </button>
+          </form>
+        </div>
+      </section>
+      <section className="bg-grey-900 text-white py-16">
+        <div className="container mx-auto px-6 lg:px-20">
+          {/* Section Header */}
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold mb-4">Our Leads</h2>
+            <p className="text-gray-400">
+              Meet our leaders, visionary professionals guiding our team with
+              expertise and strategic insight. Their dedication and innovative
+              approach drive our mission to deliver outstanding tech solutions.
+            </p>
+          </div>
+
+          {/* Lead Cards */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {/* Card 1 */}
+            <div className="bg-gray-800 p-6 rounded-lg shadow-lg text-center">
+              <p className="text-gray-400 mb-4">
+                Python, AI, Data Science developer, MERN stack trainer
+              </p>
+              <hr className="border-gray-600 mb-4" />
+              <div className="flex items-center justify-center">
+                <img
+                  src="https://www.technetcloud.co/_next/image?url=%2Fimages%2Ftestimonials%2Fauth-01.jpg&w=1920&q=75"
+                  alt="Aliyan Shaikh"
+                  className="rounded-full w-12 h-12 mr-4"
+                />
+                <div>
+                  <h4 className="font-bold">Aliyan Shaikh</h4>
+                  <p className="text-gray-500 text-sm">
+                    CEO & Founder @TechNetCloud
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Card 2 */}
+            <div className="bg-gray-800 p-6 rounded-lg shadow-lg text-center">
+              <p className="text-gray-400 mb-4">
+                Marketing specialist, UI/UX designer & Frontend developer
+              </p>
+              <hr className="border-gray-600 mb-4" />
+              <div className="flex items-center justify-center">
+                <img
+                  src="https://www.technetcloud.co/_next/image?url=%2Fimages%2Ftestimonials%2Fauth-02.jpg&w=1920&q=75"
+                  alt="Muhammad Anas Khan"
+                  className="rounded-full w-12 h-12 mr-4"
+                />
+                <div>
+                  <h4 className="font-bold">Muhammad Anas Khan</h4>
+                  <p className="text-gray-500 text-sm">CMO @TechNetCloud</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Card 3 */}
+            <div className="bg-gray-800 p-6 rounded-lg shadow-lg text-center">
+              <p className="text-gray-400 mb-4">
+                Next.js, Node.js, Full stack developer, Lead @TechNetCloud
+              </p>
+              <hr className="border-gray-600 mb-4" />
+              <div className="flex items-center justify-center">
+                <img
+                  src="https://www.technetcloud.co/_next/image?url=%2Fimages%2Ftestimonials%2Fauth-03.png&w=1920&q=75"
+                  alt="Muhammad Ahad"
+                  className="rounded-full w-12 h-12 mr-4"
+                />
+                <div>
+                  <h4 className="font-bold">Muhammad Ahad</h4>
+                  <p className="text-gray-500 text-sm">CTO @TechNetCloud</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </section>
   );
 };
