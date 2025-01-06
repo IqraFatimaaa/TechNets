@@ -246,6 +246,52 @@ const Home = () => {
           </div>
         </div>
       </section>
+      <section className="bg-grey-900 text-white py-16">
+        <div className="container mx-auto px-6 lg:px-20 flex flex-col lg:flex-row items-center">
+          {/* Left Side: Image */}
+          <div className="w-full lg:w-1/2 mb-8 lg:mb-0">
+            <div className="relative bg-gray-800 rounded-lg p-6">
+              {/* Mock Browser Window */}
+              <div className="bg-gray-700 h-6 w-1/4 rounded-md mb-4"></div>
+              <div className="grid grid-cols-2 gap-4">
+                <div className="bg-gray-600 h-24 rounded-md"></div>
+                <div className="bg-gray-600 h-24 rounded-md"></div>
+                <div className="bg-gray-600 h-24 rounded-md"></div>
+                <div className="bg-gray-600 h-24 rounded-md"></div>
+              </div>
+              {/* Floating Element */}
+              <div className="absolute top-10 left-10 bg-blue-500 w-8 h-8 rounded-full"></div>
+            </div>
+          </div>
+
+          {/* Right Side: Content */}
+          <div className="w-full lg:w-1/2 ml-16">
+            <div className="mb-6">
+              <h3 className="text-xl font-bold">Innovative Solutions</h3>
+              <p className="text-gray-400">
+                We provide cutting-edge tech solutions that drive innovation and
+                keep your business ahead in a rapidly evolving digital
+                landscape.
+              </p>
+            </div>
+            <div className="mb-6">
+              <h3 className="text-xl font-bold">Expert Consultation</h3>
+              <p className="text-gray-400">
+                Our team of experts offers comprehensive consultation to help
+                you navigate complex tech challenges and implement effective
+                strategies.
+              </p>
+            </div>
+            <div>
+              <h3 className="text-xl font-bold">Advanced Tech Stack</h3>
+              <p className="text-gray-400">
+                We utilize a state-of-the-art tech stack to build scalable and
+                high-performance solutions tailored to your specific needs.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
     </section>
   );
 };
