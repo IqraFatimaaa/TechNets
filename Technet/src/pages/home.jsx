@@ -91,6 +91,31 @@ const Home = () => {
           </p>
         </div>
       </div>
+      {/* Third Section */}
+      <section className="bg-gray-900 py-20">
+        {/* Title and Description */}
+        <div className="text-center text-white mb-10">
+          <h2 className="text-4xl font-bold mb-4">We are ready to help</h2>
+          <p className="text-gray-400">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form.
+          </p>
+        </div>
+
+        {/* Video Section */}
+        <div className="flex justify-center items-center h-screen">
+          <div className="relative max-w-5xl w-full aspect-w-16 aspect-h-9  ml-40 mt-0">
+            <iframe
+              className="rounded-lg shadow-lg w-[800px] h-[450px] " // Set width and height
+              src="https://www.youtube.com/embed/L61p2uyiMSo?autoplay=0&rel=0"
+              title="YouTube Video"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
+        </div>
+      </section>
     </section>
   );
 };
